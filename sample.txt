@@ -1,0 +1,5 @@
+curl -s --user 'api:54a086cddd99523efda92624666246b1-7dcc6512-704d290d' https://api.mailgun.net/v3/mailgun/messages \
+    -F from='Payal Sahu <payalsahu350@gmail.com>' 
+    -F to=payalsahu350@gmail.com 
+    -F subject='Hello' 
+    -F text='Testing some Mailgun awesomeness!'
